@@ -5,11 +5,16 @@
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
 >
 <h:head>
 	<title>JSF Project</title>
 </h:head>
 <h:body>
-	<p:button value="#{index.saludo}"></p:button>
+       <h:form>
+       		<p:growl id="growl" life="2000" />
+	    	<p:commandButton value="No XML" styleClass="ui-mini" actionListener="#{index.buttonActionNoXML}" update="growl" id="btn2"/>
+	    </h:form> 
 </h:body>
 </html>

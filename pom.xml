@@ -29,6 +29,17 @@
     	<version>3.1.0</version>
     </dependency>
     
+	<dependency>
+		<groupId>javax.servlet.jsp</groupId>
+		<artifactId>javax.servlet.jsp-api</artifactId>
+		<version>2.3.1</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.1.2</version>
+	</dependency>
 
     <dependency>
     	<groupId>com.sun.faces</groupId>
@@ -47,7 +58,20 @@
     	<groupId>org.primefaces</groupId>
     	<artifactId>primefaces</artifactId>
    		<version>6.1</version>
-	</dependency>    
+	</dependency>
+	 
+	 <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.11</version>
+    </dependency>    
+    
+    <dependency>
+        <groupId>org.mybatis</groupId>
+        <artifactId>mybatis</artifactId>
+        <version>3.4.2</version>
+    </dependency> 
+	
   </dependencies>
   
   <build>
